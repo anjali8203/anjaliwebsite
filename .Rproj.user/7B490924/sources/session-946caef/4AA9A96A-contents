@@ -1,8 +1,12 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Hi! I'm Anjali"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Projects"
+      href: projects.html

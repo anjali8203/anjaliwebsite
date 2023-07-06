@@ -1,14 +1,45 @@
-name: "my-website"
-navbar:
-  title: "My Website"
-  left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
-    - text: "Resume"
-      icon: fa-question
-      href: resume.html
-    - text: "Blog"
-      href: blog.html
-    - text: "Projects"
-      href: projects.html
+---
+title: "My Website"
+output: 
+  bs4Dash::bs4DashPage:
+    title: "My Website"
+    sidebar: false
+---
+
+```{r}
+library(bs4Dash)
+
+# Define navbar
+navbar <- bs4DashNavbar(
+  title = "My Website",
+  skin = "light",
+  leftMenu = list(
+    bs4DashNavbarItem(
+      text = "Home",
+      icon = "home",
+      href = "index.html"
+    ),
+    bs4DashNavbarItem(
+      text = "Resume",
+      icon = "question",
+      href = "resume.html"
+    ),
+    bs4DashNavbarItem(
+      text = "Blog",
+      href = "blog.html"
+    ),
+    bs4DashNavbarItem(
+      text = "Projects",
+      href = "projects.html"
+    )
+  )
+)
+
+# Render the navbar and content
+bs4DashPage(
+  navbar = navbar,
+  body = dashboardBody(
+    # Add your content here
+  )
+)
+

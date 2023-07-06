@@ -3,9 +3,9 @@
     "path": "~/anjaliwebsite/resume.Rmd",
     "project_path": "resume.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "4178335251",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1688607060919.0,
     "source_on_save": false,
     "relative_order": 5,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1688583178,
+    "lastKnownWriteTime": 1688607358,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1688607151091,
+    "last_content_update": 1688607358545,
     "read_only": false,
     "read_only_alternatives": []
 }

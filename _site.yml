@@ -1,10 +1,12 @@
 name: "my-website"
 navbar:
-  title: "Hi! I'm Anjali"
+  title: "My Website"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Resume"
+      icon: fa-question
       href: resume.html
     - text: "Blog"
       href: blog.html

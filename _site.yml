@@ -1,44 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>My Website</title>
-  <style>
-    /* CSS styles for navbar */
-    .navbar {
-      background-color: #f2f2f2;
-      padding: 10px;
-    }
-    
-    .navbar-title {
-      font-size: 20px;
-      font-weight: bold;
-    }
-    
-    .navbar-link {
-      margin-right: 10px;
-      text-decoration: none;
-      color: #333;
-    }
-  </style>
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <span class="navbar-title">My Website</span>
-    <div class="navbar-links">
-      <a class="navbar-link" href="index.html">Home</a>
-      <a class="navbar-link" href="about.html">About</a>
-    </div>
-  </nav>
-  
-  <!-- Content of your blog -->
-  <!-- Add your blog content here -->
-  
-  <!-- Footer -->
-  <footer>
-    <!-- Add your footer content here -->
-  </footer>
-</body>
-</html>
-
+name: "my-website"
+navbar:
+  title: "Hi! I'm Anjali"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Projects"
+      href: projects.html
